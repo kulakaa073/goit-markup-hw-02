@@ -1,3 +1,3 @@
-HTML+CSS homework 1
+HTML+CSS homework 2
 Live page link:
-https://kulakaa073.github.io/goit-markup-hw-01/
+https://kulakaa073.github.io/goit-markup-hw-02/
