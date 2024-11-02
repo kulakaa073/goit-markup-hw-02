@@ -8,14 +8,14 @@ body ul {
   list-style: none;
 }
 
-/* body a {
+body a {
   text-decoration: none;
-} */
+}
 
-.header-section {
+/* .header-section {
   border-color: #e7e9fc;
   border-width: 1px;
-}
+} */
 
 .home-link {
   font-family: "Raleway", sans-serif;
@@ -53,12 +53,15 @@ body ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: none;
+  font-style: normal;
 }
 
 .address-section .contact-link:hover,
-.address-section .contact-link:focus,
-.address-section. .contact-link:active {
+.address-section .contact-link:focus {
+  color: #404bbf;
+}
+
+.address-section .contact-link:active {
   color: #404bbf;
 }
 
@@ -139,6 +142,7 @@ body ul {
 .team-section .team-name {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
