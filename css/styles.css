@@ -8,9 +8,6 @@ body ul {
   list-style: none;
 }
 
-body a {
-}
-
 .home-link {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -42,6 +39,14 @@ body a {
 
 .navbar .nav-link:active {
   /* fill in later? */
+}
+
+address {
+  font-style: normal;
+}
+
+.address-section a {
+  font-style: normal;
 }
 
 .address-section .contact-link {
