@@ -9,13 +9,7 @@ body ul {
 }
 
 body a {
-  text-decoration: none;
 }
-
-/* .header-section {
-  border-color: #e7e9fc;
-  border-width: 1px;
-} */
 
 .home-link {
   font-family: "Raleway", sans-serif;
@@ -25,6 +19,7 @@ body a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .home-link .home-title {
@@ -37,6 +32,7 @@ body a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .navbar .nav-link:hover,
@@ -47,16 +43,14 @@ body a {
 .navbar .nav-link:active {
   /* fill in later? */
 }
-.navbar .address-section {
-  font-style: normal;
-}
 
 .address-section .contact-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* font-style: normal; */
+  font-style: normal;
+  text-decoration: none;
 }
 
 .address-section .contact-link:hover,
@@ -83,8 +77,6 @@ body a {
 .hero .hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  /* padding: 16px 32px 16px 32px; */
-  /* border-radius: 4px; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -117,18 +109,6 @@ body a {
   text-align: center;
 }
 
-/*possibly next work
- .team-section .team-card {
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
-    0px 1px 6px 0px #2e2f4214;
-}
-
-.team-section .team-card:hover,
-.team-section .team-card:focus {
-  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
-    0px 1px 6px 0px #2e2f4214;
-} */
 .team-section .team-card {
   background-color: #ffffff;
 }
@@ -165,13 +145,6 @@ body a {
   text-align: center;
   text-transform: capitalize;
 }
-
-/* uncomment fornew work
-.portfolio-section .portfolio-card:hover,
-.portfolio-section .portfolio-card:focus {
-  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
-    0px 1px 6px 0px #2e2f4214;
-} */
 
 .portfolio-title {
   color: #2e2f42;
