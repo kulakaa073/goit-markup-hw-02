@@ -47,13 +47,16 @@ body a {
 .navbar .nav-link:active {
   /* fill in later? */
 }
+.navbar .address-section {
+  font-style: normal;
+}
 
 .address-section .contact-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
+  /* font-style: normal; */
 }
 
 .address-section .contact-link:hover,
