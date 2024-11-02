@@ -8,9 +8,9 @@ body ul {
   list-style: none;
 }
 
-body a {
+/* body a {
   text-decoration: none;
-}
+} */
 
 .header-section {
   border-color: #e7e9fc;
@@ -19,15 +19,16 @@ body a {
 
 .home-link {
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.1666;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .home-link .home-title {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navbar .nav-link {
@@ -52,10 +53,12 @@ body a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: none;
 }
 
 .address-section .contact-link:hover,
-.adress-section .contact-link:focus {
+.address-section .contact-link:focus,
+.address-section. .contact-link:active {
   color: #404bbf;
 }
 
@@ -66,7 +69,7 @@ body a {
 .hero .hero-title {
   color: #ffffff;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -74,8 +77,8 @@ body a {
 .hero .hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  padding: 16px 32px 16px 32px;
-  border-radius: 4px;
+  /* padding: 16px 32px 16px 32px; */
+  /* border-radius: 4px; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -108,7 +111,8 @@ body a {
   text-align: center;
 }
 
-.team-section .team-card {
+/*possibly next work
+ .team-section .team-card {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
@@ -118,16 +122,28 @@ body a {
 .team-section .team-card:focus {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
+} */
+.team-section .team-card {
+  background-color: #ffffff;
 }
+
 .team-section .team-section-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-section .team-name {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-section .team-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -137,16 +153,19 @@ body a {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
+/* uncomment fornew work
 .portfolio-section .portfolio-card:hover,
 .portfolio-section .portfolio-card:focus {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
-}
+} */
+
 .portfolio-title {
   color: #2e2f42;
   font-size: 20px;
@@ -165,7 +184,7 @@ body a {
   background-color: #2e2f42;
 }
 
-.footer-section .home-link {
+.footer-section .home-title {
   color: #f4f4fd;
 }
 .footer-description {
